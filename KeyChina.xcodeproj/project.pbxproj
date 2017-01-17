@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECC89F71E2DB7A500D79F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC89F61E2DB7A500D79F6C /* main.m */; };
+		3ECC89FA1E2DB7A500D79F6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC89F91E2DB7A500D79F6C /* AppDelegate.m */; };
+		3ECC89FD1E2DB7A500D79F6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC89FC1E2DB7A500D79F6C /* ViewController.m */; };
+		3ECC8A001E2DB7A500D79F6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECC89FE1E2DB7A500D79F6C /* Main.storyboard */; };
+		3ECC8A021E2DB7A500D79F6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECC8A011E2DB7A500D79F6C /* Assets.xcassets */; };
+		3ECC8A051E2DB7A500D79F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECC8A031E2DB7A500D79F6C /* LaunchScreen.storyboard */; };
+		3ECC8A101E2DB7A500D79F6C /* KeyChinaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC8A0F1E2DB7A500D79F6C /* KeyChinaTests.m */; };
+		3ECC8A1B1E2DB7A500D79F6C /* KeyChinaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC8A1A1E2DB7A500D79F6C /* KeyChinaUITests.m */; };
+		3ECC8A2B1E2DB82A00D79F6C /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC8A2A1E2DB82A00D79F6C /* UUID.m */; };
+		3ECC8A2E1E2DB87100D79F6C /* KeyChinaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC8A2D1E2DB87100D79F6C /* KeyChinaStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ECC8A0C1E2DB7A500D79F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECC89EA1E2DB7A500D79F6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECC89F11E2DB7A500D79F6C;
+			remoteInfo = KeyChina;
+		};
+		3ECC8A171E2DB7A500D79F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECC89EA1E2DB7A500D79F6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECC89F11E2DB7A500D79F6C;
+			remoteInfo = KeyChina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ECC89F21E2DB7A500D79F6C /* KeyChina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyChina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECC89F61E2DB7A500D79F6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ECC89F81E2DB7A500D79F6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3ECC89F91E2DB7A500D79F6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3ECC89FB1E2DB7A500D79F6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3ECC89FC1E2DB7A500D79F6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3ECC89FF1E2DB7A500D79F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ECC8A011E2DB7A500D79F6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ECC8A041E2DB7A500D79F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ECC8A061E2DB7A500D79F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECC8A0B1E2DB7A500D79F6C /* KeyChinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyChinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECC8A0F1E2DB7A500D79F6C /* KeyChinaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChinaTests.m; sourceTree = "<group>"; };
+		3ECC8A111E2DB7A500D79F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECC8A161E2DB7A500D79F6C /* KeyChinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyChinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECC8A1A1E2DB7A500D79F6C /* KeyChinaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChinaUITests.m; sourceTree = "<group>"; };
+		3ECC8A1C1E2DB7A500D79F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECC8A281E2DB7CC00D79F6C /* KeyChina.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyChina.entitlements; sourceTree = "<group>"; };
+		3ECC8A291E2DB82A00D79F6C /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		3ECC8A2A1E2DB82A00D79F6C /* UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUID.m; sourceTree = "<group>"; };
+		3ECC8A2C1E2DB87100D79F6C /* KeyChinaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChinaStore.h; sourceTree = "<group>"; };
+		3ECC8A2D1E2DB87100D79F6C /* KeyChinaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChinaStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ECC89EF1E2DB7A500D79F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECC8A081E2DB7A500D79F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECC8A131E2DB7A500D79F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECC89E91E2DB7A500D79F6C = {
+			isa = PBXGroup;
+			children = (
+				3ECC89F41E2DB7A500D79F6C /* KeyChina */,
+				3ECC8A0E1E2DB7A500D79F6C /* KeyChinaTests */,
+				3ECC8A191E2DB7A500D79F6C /* KeyChinaUITests */,
+				3ECC89F31E2DB7A500D79F6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ECC89F31E2DB7A500D79F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ECC89F21E2DB7A500D79F6C /* KeyChina.app */,
+				3ECC8A0B1E2DB7A500D79F6C /* KeyChinaTests.xctest */,
+				3ECC8A161E2DB7A500D79F6C /* KeyChinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ECC89F41E2DB7A500D79F6C /* KeyChina */ = {
+			isa = PBXGroup;
+			children = (
+				3ECC8A281E2DB7CC00D79F6C /* KeyChina.entitlements */,
+				3ECC89F81E2DB7A500D79F6C /* AppDelegate.h */,
+				3ECC89F91E2DB7A500D79F6C /* AppDelegate.m */,
+				3ECC89FB1E2DB7A500D79F6C /* ViewController.h */,
+				3ECC89FC1E2DB7A500D79F6C /* ViewController.m */,
+				3ECC8A291E2DB82A00D79F6C /* UUID.h */,
+				3ECC8A2A1E2DB82A00D79F6C /* UUID.m */,
+				3ECC8A2C1E2DB87100D79F6C /* KeyChinaStore.h */,
+				3ECC8A2D1E2DB87100D79F6C /* KeyChinaStore.m */,
+				3ECC89FE1E2DB7A500D79F6C /* Main.storyboard */,
+				3ECC8A011E2DB7A500D79F6C /* Assets.xcassets */,
+				3ECC8A031E2DB7A500D79F6C /* LaunchScreen.storyboard */,
+				3ECC8A061E2DB7A500D79F6C /* Info.plist */,
+				3ECC89F51E2DB7A500D79F6C /* Supporting Files */,
+			);
+			path = KeyChina;
+			sourceTree = "<group>";
+		};
+		3ECC89F51E2DB7A500D79F6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ECC89F61E2DB7A500D79F6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ECC8A0E1E2DB7A500D79F6C /* KeyChinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ECC8A0F1E2DB7A500D79F6C /* KeyChinaTests.m */,
+				3ECC8A111E2DB7A500D79F6C /* Info.plist */,
+			);
+			path = KeyChinaTests;
+			sourceTree = "<group>";
+		};
+		3ECC8A191E2DB7A500D79F6C /* KeyChinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ECC8A1A1E2DB7A500D79F6C /* KeyChinaUITests.m */,
+				3ECC8A1C1E2DB7A500D79F6C /* Info.plist */,
+			);
+			path = KeyChinaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ECC89F11E2DB7A500D79F6C /* KeyChina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECC8A1F1E2DB7A500D79F6C /* Build configuration list for PBXNativeTarget "KeyChina" */;
+			buildPhases = (
+				3ECC89EE1E2DB7A500D79F6C /* Sources */,
+				3ECC89EF1E2DB7A500D79F6C /* Frameworks */,
+				3ECC89F01E2DB7A500D79F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyChina;
+			productName = KeyChina;
+			productReference = 3ECC89F21E2DB7A500D79F6C /* KeyChina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ECC8A0A1E2DB7A500D79F6C /* KeyChinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECC8A221E2DB7A500D79F6C /* Build configuration list for PBXNativeTarget "KeyChinaTests" */;
+			buildPhases = (
+				3ECC8A071E2DB7A500D79F6C /* Sources */,
+				3ECC8A081E2DB7A500D79F6C /* Frameworks */,
+				3ECC8A091E2DB7A500D79F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECC8A0D1E2DB7A500D79F6C /* PBXTargetDependency */,
+			);
+			name = KeyChinaTests;
+			productName = KeyChinaTests;
+			productReference = 3ECC8A0B1E2DB7A500D79F6C /* KeyChinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ECC8A151E2DB7A500D79F6C /* KeyChinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECC8A251E2DB7A500D79F6C /* Build configuration list for PBXNativeTarget "KeyChinaUITests" */;
+			buildPhases = (
+				3ECC8A121E2DB7A500D79F6C /* Sources */,
+				3ECC8A131E2DB7A500D79F6C /* Frameworks */,
+				3ECC8A141E2DB7A500D79F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECC8A181E2DB7A500D79F6C /* PBXTargetDependency */,
+			);
+			name = KeyChinaUITests;
+			productName = KeyChinaUITests;
+			productReference = 3ECC8A161E2DB7A500D79F6C /* KeyChinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ECC89EA1E2DB7A500D79F6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = QiangChen;
+				TargetAttributes = {
+					3ECC89F11E2DB7A500D79F6C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8EZCBM6CYX;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					3ECC8A0A1E2DB7A500D79F6C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8EZCBM6CYX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3ECC89F11E2DB7A500D79F6C;
+					};
+					3ECC8A151E2DB7A500D79F6C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8EZCBM6CYX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3ECC89F11E2DB7A500D79F6C;
+					};
+				};
+			};
+			buildConfigurationList = 3ECC89ED1E2DB7A500D79F6C /* Build configuration list for PBXProject "KeyChina" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ECC89E91E2DB7A500D79F6C;
+			productRefGroup = 3ECC89F31E2DB7A500D79F6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECC89F11E2DB7A500D79F6C /* KeyChina */,
+				3ECC8A0A1E2DB7A500D79F6C /* KeyChinaTests */,
+				3ECC8A151E2DB7A500D79F6C /* KeyChinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECC89F01E2DB7A500D79F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECC8A051E2DB7A500D79F6C /* LaunchScreen.storyboard in Resources */,
+				3ECC8A021E2DB7A500D79F6C /* Assets.xcassets in Resources */,
+				3ECC8A001E2DB7A500D79F6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECC8A091E2DB7A500D79F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECC8A141E2DB7A500D79F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ECC89EE1E2DB7A500D79F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECC8A2B1E2DB82A00D79F6C /* UUID.m in Sources */,
+				3ECC89FD1E2DB7A500D79F6C /* ViewController.m in Sources */,
+				3ECC89FA1E2DB7A500D79F6C /* AppDelegate.m in Sources */,
+				3ECC89F71E2DB7A500D79F6C /* main.m in Sources */,
+				3ECC8A2E1E2DB87100D79F6C /* KeyChinaStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECC8A071E2DB7A500D79F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECC8A101E2DB7A500D79F6C /* KeyChinaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECC8A121E2DB7A500D79F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECC8A1B1E2DB7A500D79F6C /* KeyChinaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ECC8A0D1E2DB7A500D79F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECC89F11E2DB7A500D79F6C /* KeyChina */;
+			targetProxy = 3ECC8A0C1E2DB7A500D79F6C /* PBXContainerItemProxy */;
+		};
+		3ECC8A181E2DB7A500D79F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECC89F11E2DB7A500D79F6C /* KeyChina */;
+			targetProxy = 3ECC8A171E2DB7A500D79F6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ECC89FE1E2DB7A500D79F6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECC89FF1E2DB7A500D79F6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ECC8A031E2DB7A500D79F6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECC8A041E2DB7A500D79F6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ECC8A1D1E2DB7A500D79F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ECC8A1E1E2DB7A500D79F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ECC8A201E2DB7A500D79F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyChina/KeyChina.entitlements;
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = KeyChina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-allTest----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3ECC8A211E2DB7A500D79F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyChina/KeyChina.entitlements;
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = KeyChina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-allTest----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3ECC8A231E2DB7A500D79F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = KeyChinaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.KeyChinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyChina.app/KeyChina";
+			};
+			name = Debug;
+		};
+		3ECC8A241E2DB7A500D79F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = KeyChinaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.KeyChinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyChina.app/KeyChina";
+			};
+			name = Release;
+		};
+		3ECC8A261E2DB7A500D79F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = KeyChinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.KeyChinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyChina;
+			};
+			name = Debug;
+		};
+		3ECC8A271E2DB7A500D79F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8EZCBM6CYX;
+				INFOPLIST_FILE = KeyChinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MKmdmooc.KeyChinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyChina;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ECC89ED1E2DB7A500D79F6C /* Build configuration list for PBXProject "KeyChina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECC8A1D1E2DB7A500D79F6C /* Debug */,
+				3ECC8A1E1E2DB7A500D79F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECC8A1F1E2DB7A500D79F6C /* Build configuration list for PBXNativeTarget "KeyChina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECC8A201E2DB7A500D79F6C /* Debug */,
+				3ECC8A211E2DB7A500D79F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3ECC8A221E2DB7A500D79F6C /* Build configuration list for PBXNativeTarget "KeyChinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECC8A231E2DB7A500D79F6C /* Debug */,
+				3ECC8A241E2DB7A500D79F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3ECC8A251E2DB7A500D79F6C /* Build configuration list for PBXNativeTarget "KeyChinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECC8A261E2DB7A500D79F6C /* Debug */,
+				3ECC8A271E2DB7A500D79F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ECC89EA1E2DB7A500D79F6C /* Project object */;
+}
